@@ -10,6 +10,12 @@
 		0B59320DECA11D149927E9E4 /* libPods-WeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1369BC70B68FBF616453A4A2 /* libPods-WeChat.a */; };
 		8DA996A11EF7A52F00E79219 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA996A01EF7A52F00E79219 /* Login.storyboard */; };
 		8DA996A31EF7A55B00E79219 /* MBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA996A21EF7A55B00E79219 /* MBLoginViewController.swift */; };
+		8DA996A51EF7C02D00E79219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA996A41EF7C02D00E79219 /* Main.storyboard */; };
+		8DA996AF1EF7C1D800E79219 /* MBMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA996AE1EF7C1D800E79219 /* MBMainTabBarController.swift */; };
+		8DA996B11EF7C29200E79219 /* WeChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA996B01EF7C29200E79219 /* WeChat.storyboard */; };
+		8DA996B61EF7C41200E79219 /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA996B31EF7C41200E79219 /* Contacts.storyboard */; };
+		8DA996B71EF7C41200E79219 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA996B41EF7C41200E79219 /* Discover.storyboard */; };
+		8DA996B81EF7C41200E79219 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA996B51EF7C41200E79219 /* Profile.storyboard */; };
 		8DC0BDDD1EF51191004FD1A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0BDDC1EF51191004FD1A5 /* AppDelegate.swift */; };
 		8DC0BDE41EF51191004FD1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC0BDE31EF51191004FD1A5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -19,6 +25,12 @@
 		542F5E8BA98F657947A84C36 /* Pods-WeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChat/Pods-WeChat.release.xcconfig"; sourceTree = "<group>"; };
 		8DA996A01EF7A52F00E79219 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		8DA996A21EF7A55B00E79219 /* MBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBLoginViewController.swift; sourceTree = "<group>"; };
+		8DA996A41EF7C02D00E79219 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8DA996AE1EF7C1D800E79219 /* MBMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBMainTabBarController.swift; sourceTree = "<group>"; };
+		8DA996B01EF7C29200E79219 /* WeChat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WeChat.storyboard; sourceTree = "<group>"; };
+		8DA996B31EF7C41200E79219 /* Contacts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Contacts.storyboard; sourceTree = "<group>"; };
+		8DA996B41EF7C41200E79219 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		8DA996B51EF7C41200E79219 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		8DC0BDD91EF51191004FD1A5 /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC0BDDC1EF51191004FD1A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DC0BDE31EF51191004FD1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,15 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				8DA996A01EF7A52F00E79219 /* Login.storyboard */,
+				8DA996A41EF7C02D00E79219 /* Main.storyboard */,
+				8DA996B01EF7C29200E79219 /* WeChat.storyboard */,
+				8DA996B31EF7C41200E79219 /* Contacts.storyboard */,
+				8DA996B41EF7C41200E79219 /* Discover.storyboard */,
+				8DA996B51EF7C41200E79219 /* Profile.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		8DA9969D1EF7A0BE00E79219 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
 			sourceTree = "<group>";
 		};
 		8DA9969F1EF7A18E00E79219 /* Supporting Files */ = {
@@ -70,6 +80,29 @@
 				8DC0BDE81EF51191004FD1A5 /* WeChat-Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DA996AC1EF7C1A600E79219 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8DA996AD1EF7C1A600E79219 /* Controllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8DA996AD1EF7C1A600E79219 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DA996AE1EF7C1D800E79219 /* MBMainTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8DA996B21EF7C2BE00E79219 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WeChat;
 			sourceTree = "<group>";
 		};
 		8DC0BDD01EF51191004FD1A5 = {
@@ -103,21 +136,14 @@
 			isa = PBXGroup;
 			children = (
 				8DFCF8D71EF77A9C007C8229 /* Login */,
-				8DC0BDEF1EF51399004FD1A5 /* Chat */,
+				8DA996AC1EF7C1A600E79219 /* Main */,
+				8DA996B21EF7C2BE00E79219 /* WeChat */,
+				8DC0BDF21EF51399004FD1A5 /* Contacts */,
 				8DC0BDF01EF51399004FD1A5 /* ChatGroup */,
 				8DC0BDF11EF51399004FD1A5 /* ChatRoom */,
-				8DC0BDF21EF51399004FD1A5 /* Contacts */,
 				8DC0BDF31EF51399004FD1A5 /* Settings */,
-				8DA9969D1EF7A0BE00E79219 /* Other */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		8DC0BDEF1EF51399004FD1A5 /* Chat */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Chat;
 			sourceTree = "<group>";
 		};
 		8DC0BDF01EF51399004FD1A5 /* ChatGroup */ = {
@@ -236,8 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA996B11EF7C29200E79219 /* WeChat.storyboard in Resources */,
+				8DA996A51EF7C02D00E79219 /* Main.storyboard in Resources */,
+				8DA996B61EF7C41200E79219 /* Contacts.storyboard in Resources */,
 				8DA996A11EF7A52F00E79219 /* Login.storyboard in Resources */,
 				8DC0BDE41EF51191004FD1A5 /* Assets.xcassets in Resources */,
+				8DA996B81EF7C41200E79219 /* Profile.storyboard in Resources */,
+				8DA996B71EF7C41200E79219 /* Discover.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +329,7 @@
 			files = (
 				8DC0BDDD1EF51191004FD1A5 /* AppDelegate.swift in Sources */,
 				8DA996A31EF7A55B00E79219 /* MBLoginViewController.swift in Sources */,
+				8DA996AF1EF7C1D800E79219 /* MBMainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +437,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = VQ2W6JQN9Q;
 				INFOPLIST_FILE = "$(SRCROOT)/WeChat/WeChat-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mybar.WeChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -421,7 +453,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = VQ2W6JQN9Q;
 				INFOPLIST_FILE = "$(SRCROOT)/WeChat/WeChat-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mybar.WeChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";

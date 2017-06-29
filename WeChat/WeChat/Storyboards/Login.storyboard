@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="be6-Pc-dz6">
             <objects>
-                <viewController storyboardIdentifier="accountLogin" id="6mP-HV-RnA" customClass="MBLoginViewController" customModule="WeChat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="accountLoginVC" id="6mP-HV-RnA" customClass="MBLoginViewController" customModule="WeChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="voM-yA-l3F"/>
                         <viewControllerLayoutGuide type="bottom" id="x9q-uD-ezf"/>
